@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import dogsPI from "../../Assets/Projects/dogs.png";
+import foodexpress from "../../Assets/Projects/foodexpress.png";
 
 function Projects() {
   return (
@@ -23,27 +25,27 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={dogsPI}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Dogs Friend"
+              description="Individual Project for Soy Henry Bootcamp. The project features a series of cards displaying information about dogs, sourced from an external API. Users can filter and sort the cards, give them a 'like,' view details of a specific card, and navigate through pagination at the bottom of the page. Additionally, there is a search function to look for dog breeds by name. Users can also contribute by creating a new breed and adding specific details."
+              ghLink="https://github.com/fsquaglia/PI.frontend"
+              demoLink="https://dogsfriends.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={foodexpress}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Food Express"
+              description="The main objective of the project is to provide users and site visitors with the opportunity to purchase gastronomy-related products, including food and beverages. The goal is to reduce the waiting time that people typically experience when accessing a delightful dining experience. Additionally, the platform offers the option to reserve a table at a restaurant for a specific date and time, enhancing the overall dining experience for users."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://foodexpress-alpha.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -52,9 +54,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +88,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

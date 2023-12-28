@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import henry from "../../Assets/henry.png";
 
 function AboutCard() {
   return (
@@ -8,33 +9,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Fernando Squaglia </span>
+            from{" "}
+            <span className="purple"> San Cristóbal, Santa Fe, Argentina.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Enthusiast of the world of computing and programming. My journey
+            into the realm of programming began with the excitement of
+            discovering how lines of code could transform abstract ideas into
+            functional applications.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I'm drawn to taking on projects that allow me to innovate and grow
+            as a developer. I firmly believe in the philosophy of open source
+            and in sharing knowledge to contribute to the community.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I'm not immersed in the world of code, I enjoy researching and
+            acquiring knowledge. I'm excited to connect with other technology
+            enthusiasts, collaborate on interesting projects, and continue
+            exploring the endless possibilities that programming has to offer.
+            <br />
+            Let's make technology work in our favor and build an exciting
+            digital future together! 🚀✨
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> I've just graduated from{" "}
+              <img
+                src={henry}
+                alt="Henry"
+                className="img-fluid ml-3"
+                style={{ maxHeight: "20px" }} // Ajusta la altura según sea necesario
+              />
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
