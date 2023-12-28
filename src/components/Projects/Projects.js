@@ -40,7 +40,7 @@ function Projects() {
               isBlog={false}
               title="Food Express"
               description="The main objective of the project is to provide users and site visitors with the opportunity to purchase gastronomy-related products, including food and beverages. The goal is to reduce the waiting time that people typically experience when accessing a delightful dining experience. Additionally, the platform offers the option to reserve a table at a restaurant for a specific date and time, enhancing the overall dining experience for users."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/borkoloco/FoodExpress-Front"
               demoLink="https://foodexpress-alpha.vercel.app/"
             />
           </Col>
