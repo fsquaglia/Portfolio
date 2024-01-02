@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
+import { CgYoutube } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -31,6 +32,19 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        {"\n"}
+        {"\n"}
+        {!props.isBlog && props.ytLink && (
+          <Button
+            variant="primary"
+            href={props.ytLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgYoutube /> &nbsp;
+            {"Video"}
           </Button>
         )}
       </Card.Body>

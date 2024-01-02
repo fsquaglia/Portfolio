@@ -31,6 +31,7 @@ function Projects() {
               description="Individual Project for Soy Henry Bootcamp. The project features a series of cards displaying information about dogs, sourced from an external API. Users can filter and sort the cards, give them a 'like,' view details of a specific card, and navigate through pagination at the bottom of the page. Additionally, there is a search function to look for dog breeds by name. Users can also contribute by creating a new breed and adding specific details."
               ghLink="https://github.com/fsquaglia/PI.frontend"
               demoLink="https://dogsfriends.vercel.app/"
+              ytLink="https://youtu.be/riE5virUQpM"
             />
           </Col>
 
